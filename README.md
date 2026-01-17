@@ -32,11 +32,3 @@ npm install
 npm run dev
 
 Para detalles específicos de cada módulo, revise el README interno en cada subcarpeta.
-
-### Paso 5: Guardar y Subir a GitHub
-Como moviste muchos archivos, Git pensará que los borraste y creaste otros nuevos. Vamos a consolidar esto.
-
-```bash
-git add .
-git commit -m "Reestructuración del proyecto: Separación en carpetas web-app, plugin y bi"
-git push
