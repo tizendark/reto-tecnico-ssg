@@ -7,7 +7,7 @@ Este repositorio contiene la solución integral al Reto Técnico, dividida en tr
 ### 1. [Web Application](/web-app)
 **Tecnologías:** Next.js 14, Tailwind CSS, Supabase.
 Ubicada en la carpeta `/web-app`. Contiene el portal de gestión, backlog y paneles de administración.
-* **Demo en vivo:** [Inserte su URL de Vercel aquí]
+* **Demo en vivo:** (https://reto-tecnico-ssg.vercel.app/)
 
 ### 2. [WordPress Plugin](/wordpress-plugin)
 **Tecnologías:** PHP, WordPress Shortcodes API.
@@ -32,11 +32,3 @@ npm install
 npm run dev
 
 Para detalles específicos de cada módulo, revise el README interno en cada subcarpeta.
-
-### Paso 5: Guardar y Subir a GitHub
-Como moviste muchos archivos, Git pensará que los borraste y creaste otros nuevos. Vamos a consolidar esto.
-
-```bash
-git add .
-git commit -m "Reestructuración del proyecto: Separación en carpetas web-app, plugin y bi"
-git push
